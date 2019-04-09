@@ -1,0 +1,61 @@
+.single-movie img {
+    width: 100%;
+    min-height: 250px;
+}
+
+.content-slide {
+    margin-top: 151px;
+    background: #333;
+}
+
+
+.details-btn a {
+    display: inline-block;
+    padding: 7px 10px;
+    background: #FE4849;
+    margin-right: 11px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.details-btn a:last-child {
+    margin-right: 0;
+}
+
+.details-btn {
+    padding: 12px 0px;
+}
+.details-btn a.fevorite {
+    float: right
+}
+
+.single-movie {
+    padding: 10px;
+    box-shadow: 0 0 16px 0 #222;
+    margin-bottom: 30px;
+}
+
+.movie-meta h6 {
+    margin: 11px 0;
+}
+
+.category span {
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+.category {
+    padding: 10px 0;
+}
+
+.rating {
+    padding: 5px 0;
+}
+
+.rating span {
+    cursor: pointer;
+    margin-right: 11px;
+    color: #FE4849;
+}

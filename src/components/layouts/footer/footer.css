@@ -1,0 +1,35 @@
+.footer {
+    position: absolute;
+    left: 0;
+    background: hsl(0, 0%, 9%);
+    width: 100%;
+    padding: 16px 0;
+}
+
+.footer .copyright {
+    padding: 17px 0;
+}
+.footer p {
+    margin: 0;
+    display: inline;
+}
+
+.footer a.author {
+    display: inline-block;
+    color: #65CAF1;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 7px;
+}
+
+.follow-me a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 23px;
+}
+
+.follow-me a:last-child {
+    padding-right: 0;
+}
+
+

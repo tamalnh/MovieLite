@@ -1,0 +1,30 @@
+.single-movie-slide {
+    margin-top: 79px;
+    background: #333;
+    padding: 80px;
+}
+
+ul.movie-desc-meta {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.movie-desc-meta li {
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+ul.movie-desc-meta li span {
+    font-weight: normal;
+    opacity: .6;
+    margin-left: 5px;
+    font-size: 15px
+}
+
+.movie-desc-details span {
+    font-weight: 700;
+}
+
+.movie-desc-details p {color: #ddd;}

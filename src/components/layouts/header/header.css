@@ -1,0 +1,86 @@
+.header-slide {
+    position: fixed;
+    width: 100%;
+    z-index: 111;
+    top: 0;
+    left: 0;
+}
+
+
+.header-nav{
+    background: #FE4647; 
+    padding: 17px 0;
+}
+
+ul.header-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.header-nav li {
+    display: inline-block;
+}
+
+ul.header-nav li a {
+    display: block;
+    text-transform: uppercase;
+    margin-left: 10px;
+    padding: 10px 19px;
+    font-weight: 500;
+}
+
+ul.header-nav li:last-child a {
+    padding-right: 0;
+}
+
+.header-slide a.logo {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: Monoton;
+    font-size: 30px;
+}
+
+.sorting-nav {
+    background: #ddd;
+    padding: 17px 0;
+    position: fixed;
+    width: 100%;
+    top: 79px;
+    height: auto;
+    z-index: 111;
+}
+
+.movie-search {
+    position: relative;
+}
+
+a.search-item {
+    display: block;
+    background: #333;
+    overflow: auto;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 5px;
+    font-size: 17px;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    box-shadow: 0 0 16px 0 #222;
+}
+
+a.search-item:hover{
+    color: inherit; 
+}
+
+a.search-item:hover img{
+    opacity: .7;
+}
+
+a.search-item img {
+    float: left;
+    height: 150px;
+}
+a.search-item span{
+    padding: 7px
+}

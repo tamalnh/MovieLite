@@ -1,0 +1,22 @@
+a{
+    color: inherit
+}
+a:hover{
+    text-decoration: none
+}
+
+h1,h2,h3,h4,h5,h6{
+margin: 0;
+font-weight: 700
+}
+
+body{
+    /* font-family: 'Monoton', cursive; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #ffffff
+}
+
+.section-padding {
+    padding: 80px 0;
+}
